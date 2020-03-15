@@ -1,4 +1,18 @@
 ---
 label: blog post
 hide_body: false
-fields: []
+fields:
+- name: page_title
+  type: text
+  config:
+    required: false
+  label: Page title
+  description: This is a hint
+- name: sortable_list
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: sortable list
+  description: sort as you will
